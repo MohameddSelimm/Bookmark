@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
+</head>
+<body>
+
+    <div class="container mt-5 p-4">
+
+        <div class="row">
+            <div class=" col-md-8" >
+
+                <h3 class="text">Bookmarker</h3>
+            </div>
+
+        </div>
+    </div>
+    <hr class="hr"/>
+
+    <div class="contianer">
+        <div class="row">
+            <div class="offset-md-1 col-md-10 offset-md-1 " >
+                <div class="BookMark pt-5 pb-5 text-center">
+                <h2 >Bookmark your favorite sites</h2>
+                <p class="pt-4">Site Name</p>
+                <input id="siteName" placeholder="Bookmark Name" type="text"  class="form-control "  >
+                <div id="nameRequired"  class=" text-center mt-2"  > 
+                    name is required
+                </div>
+
+                <p class="pt-4">Site URL</p>
+                <input id="siteUrl" placeholder="website URL" type="text" class="form-control ">
+                <div id="urlRequired"  class=" text-center mt-2"  > 
+                    url is required
+                </div>
+
+                <button  onclick="IsEmpty()" type="button" class="d-block btn btn-primary mt-3">
+                    Submit</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <hr class="hr"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
